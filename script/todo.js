@@ -55,7 +55,7 @@ function updateTask(text, boolean) {
 	const random = Math.floor(Math.random() * 3);
 	span.style.backgroundColor = colors[random];
 
-	icon.src = '../img/icon.png';
+	icon.src = 'img/icon.png';
 	icon.classList.add('icon');
 	li.id = taskList.length + 1;
 
