@@ -55,7 +55,7 @@ function updateTask(text, boolean) {
 	const random = Math.floor(Math.random() * 3);
 	span.style.backgroundColor = colors[random];
 
-	icon.src = '../final/img/icon.png';
+	icon.src = '../img/icon.png';
 	icon.classList.add('icon');
 	li.id = taskList.length + 1;
 
@@ -93,27 +93,12 @@ function loadTask() {
 		parsedTask.forEach(function (element) {
 			updateTask(element.text, element.isFinished);
 		});
-	} else {
-		newTask();
 	}
 }
 
 function init() {
-	// setInterval(checkUser, 1000);
 	formTask.addEventListener('submit', handleSubmit);
-
 	loadTask();
 }
 
 init();
-
-// function checkUser() {
-// 	const username = localStorage.getItem('username');
-// 	if (username !== null) {
-// 		formTask.classList.remove('hide');
-// 		formTask.classList.add('show');
-// 	} else {
-// 		formTask.classList.add('hide');
-// 		formTask.classList.remove('show');
-// 	}
-// }
