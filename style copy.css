@@ -1,0 +1,84 @@
+html,
+body,
+input {
+	box-sizing: border-box;
+	font-family: 'Apercu Pro', sans-serif;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+	margin: 8px 0;
+}
+
+.textbox,
+input {
+	background-color: white;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 15px;
+	padding: 2px 16px;
+	border: 1px solid black;
+}
+
+button:hover {
+	background-color: red;
+	cursor: pointer;
+}
+
+.todo:hover {
+	cursor: pointer;
+}
+
+button {
+	background-color: white;
+	border: 1px solid black;
+	padding: 0;
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+	border-left: 0;
+}
+
+.icon {
+	position: relative;
+	vertical-align: middle;
+	left: 1px;
+	width: 16px;
+	height: 16px;
+}
+
+.show {
+	display: inline;
+}
+
+.hide {
+	display: none;
+}
+
+.username {
+	font-weight: 800;
+}
+
+.js-clock-container {
+	background-color: white;
+}
+
+.bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
+
+.input {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
