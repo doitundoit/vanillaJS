@@ -10,4 +10,4 @@
 3. 배경 이미지 랜덤 로딩
 
 ## 참고
-[노마드코더의 바닐라 JS로 크롬 앱 만들기](https://nomadcoders.co/javascript-for-beginners) 
+[바닐라 JS로 크롬 앱 만들기](https://nomadcoders.co/javascript-for-beginners) by 노마드코더
