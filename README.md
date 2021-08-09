@@ -1,6 +1,6 @@
 ## vanillaJS
 
-[웹사이트 보기](https://goyohi.github.io/vanillaJS)
+[웹사이트 보기](https://doitundoit.github.io/vanillaJS)
 
 크롬 확장프로그램 [모멘텀](https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca?hl=ko)을 클론코딩 했습니다.
 아래 네 가지 기능을 구현했습니다.
